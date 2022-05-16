@@ -1,0 +1,21 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  }
+
+.App {
+  text-align: center;
+}
+.Header {
+  border: solid;
+  background-color: black;
+  color: white;
+  height: 5vh;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+  position:sticky;
+}
