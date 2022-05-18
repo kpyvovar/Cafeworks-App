@@ -2,7 +2,7 @@ import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
 import Footer from "./components/Footer";
 import Home from "./Pages/Home";
-import Login from "./Pages/Login";
+import Signup from "./Pages/Signup";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
             </li>
             <li>
               {" "}
-              <Link to="/login"> Login Page </Link>{" "}
+              <Link to="/signup"> Signup Page </Link>{" "}
             </li>
           </ul>
         </nav>
@@ -24,7 +24,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
       <Footer />
     </div>
