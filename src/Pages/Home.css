@@ -1,14 +1,24 @@
 .image {
   border: none 2px white;
-  background-image: url("./bg.png");
+  background-image: url("https://github.com/kpyvovar/Cafeworks-App/blob/main/src/Assets/bg.png?raw=true");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
   overflow: hidden;
+  position: relative;
 }
 
 .names {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.word {
+  position: absolute;
+  top: 20px;
+  left: 80px;
+
+  font-size: 40px;
 }

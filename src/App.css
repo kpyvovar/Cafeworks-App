@@ -4,18 +4,29 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
-  }
+}
 
 .App {
   text-align: center;
+  color: #6c5519;
 }
-.Header {
-  border: solid;
-  background-color: black;
-  color: white;
+.Header ul {
+  background-color: #c7a970;
   height: 5vh;
   padding: 10px;
-  flex-direction: row;
-  justify-content: space-around;
-  position:sticky;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: none;
+}
+
+ul {
+  list-style: none;
+}
+ul li a {
+  color: #6c5519;
+}
+a:hover {
+  color: white;
 }

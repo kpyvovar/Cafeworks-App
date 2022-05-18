@@ -1,13 +1,15 @@
-import './Card.css'
+import "./Card.css";
 
 function Card(props) {
-    <div>
-        <div className= "Card">
-            <div>
-                <p className="box"> Text </p>
-            </div>
+  return (
+    <div className="Card">
+      <div>
+        <div>
+          <p className="box"> Text </p>
         </div>
+      </div>
     </div>
+  );
 }
 
-export default Card
+export default Card;

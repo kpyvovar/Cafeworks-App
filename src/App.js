@@ -2,8 +2,7 @@ import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
 import Footer from "./components/Footer";
 import Home from "./Pages/Home";
-import Coffeemaker from "./Pages/Coffeemaker";
-import Login from "./Pages/Auth/Login";
+import Login from "./Pages/Login";
 
 function App() {
   return (
@@ -17,7 +16,7 @@ function App() {
             </li>
             <li>
               {" "}
-              <Link to="/coffeemaker"> Coffeemaker </Link>{" "}
+              <Link to="/login"> Login Page </Link>{" "}
             </li>
           </ul>
         </nav>
@@ -25,7 +24,6 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/coffeemaker" element={<Coffeemaker />} />
         <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />

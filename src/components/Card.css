@@ -1,4 +1,7 @@
 .box {
-   background-color: yellow; 
-   height: 1vh;
+  background-color: white;
+  margin-top: 7pc;
+  margin-left: 2pc;
+  margin-right: 2pc;
+  height: 6pc;
 }
